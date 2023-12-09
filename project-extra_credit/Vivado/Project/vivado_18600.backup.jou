@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Thu Dec  7 14:01:54 2023
+# Process ID: 18600
+# Current directory: C:/Users/jojackm/Documents/project/Vivado/Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23964 C:\Users\jojackm\Documents\project\Vivado\Project\Project.xpr
+# Log file: C:/Users/jojackm/Documents/project/Vivado/Project/vivado.log
+# Journal file: C:/Users/jojackm/Documents/project/Vivado/Project\vivado.jou
+# Running On: CEAT-ENDV350-12, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 68431 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jojackm/Documents/project/Vivado/Project/Project.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8

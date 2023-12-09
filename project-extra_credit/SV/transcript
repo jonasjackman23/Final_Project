@@ -1,0 +1,87 @@
+# do silly.do
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:15:54 on Dec 08,2023
+# vlog silly.sv silly_tb.sv datapath.sv mux.sv 
+# -- Compiling module DFlipFlop
+# -- Compiling module GameOfLife
+# -- Compiling module fsm
+# -- Compiling module stimulus
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux4
+# -- Compiling module mux5
+# -- Compiling module mux6
+# -- Compiling module mux16
+# 
+# Top level modules:
+# 	stimulus
+# 	mux3
+# 	mux4
+# 	mux5
+# 	mux6
+# 	mux16
+# End time: 17:15:54 on Dec 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 17:15:54 on Dec 08,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "fsm(fast)".
+# //  ModelSim SE-64 2021.3 Jul 13 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.GameOfLife(fast)
+# Loading work.datapath(fast)
+# Loading work.evolve3(fast)
+# Loading work.rules(fast)
+# Loading work.evolve5(fast)
+# Loading work.evolve8(fast)
+# Loading work.mux2(fast)
+# Loading work.DFlipFlop(fast)
+# Loading work.fsm(fast)
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/dut File: silly_tb.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (1024) for port 'start'. The port definition is at: silly.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/dut File: silly_tb.sv Line: 16
+# ** Warning: (vsim-3722) silly_tb.sv(16): [TFMPC] - Missing connection for port 'out_grid'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (256) does not match connection size (1024) for port 'd0'. The port definition is at: mux.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/dut/FirstMultiplexor File: silly.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (256) does not match connection size (1024) for port 'd1'. The port definition is at: mux.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/dut/FirstMultiplexor File: silly.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (256) does not match connection size (1024) for port 'y'. The port definition is at: mux.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/dut/FirstMultiplexor File: silly.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (256) does not match connection size (1024) for port 'd0'. The port definition is at: mux.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/dut/SecondMultiplexor File: silly.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (256) does not match connection size (1024) for port 'd1'. The port definition is at: mux.sv(30).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/dut/SecondMultiplexor File: silly.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (256) does not match connection size (1024) for port 'y'. The port definition is at: mux.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus/dut/SecondMultiplexor File: silly.sv Line: 36
+# .list
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# ** Note: $finish    : silly_tb.sv(28)
+#    Time: 10 us  Iteration: 0  Instance: /stimulus
+# End time: 17:15:59 on Dec 08,2023, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 9
